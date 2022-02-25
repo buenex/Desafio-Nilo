@@ -1,0 +1,1 @@
+#Classe onde deve conter os métodos uteis
