@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run all tests",
+            "type": "shell",
+            "command": "python -m robot --log Report/log.html --report Report/report --log Report/log --output Report/out.xml ./Tests"
+        },
+        {
+            "label": "run current test",
+            "type": "shell",
+            "command": "python -m robot --log Report/log.html --report Report/report --log Report/log --output Report/out.xml ${relativeFile}"
+        }
+    ]
+}

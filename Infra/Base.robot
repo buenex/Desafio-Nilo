@@ -12,9 +12,9 @@ ${base_url}    http://practice.automationtesting.in/
 *** Keywords ***
 #Hooks
 Open Session
-    Open Browser               ${base_url}    #headlesschrome
+    Open Browser               ${base_url}    chrome
     Get Selenium speed
     Maximize Browser Window
 
-Close Session      
+Close Session
     Close Browser       

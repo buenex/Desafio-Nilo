@@ -1,0 +1,6 @@
+#Folders
+[Rr]eport
+[Ii]nfra/[Ll]ibrary/__pycache__
+
+#Files
+*.png
