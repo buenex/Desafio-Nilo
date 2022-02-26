@@ -15,6 +15,7 @@ Open Session
     Open Browser               ${base_url}    chrome
     Get Selenium speed
     Maximize Browser Window
+    Set Selenium Timeout    30
 
 Close Session
     Close Browser       
