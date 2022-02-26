@@ -9,21 +9,32 @@
     <li><a href="https://pypi.org/project/robotframework/">Robot Framework (Dependencia do python via pip)</a></li>
     <li><a href="pip install robotframework-seleniumlibrary">Robot Framework Selenium Library (Dependencia do python via pip)</a></li>
     <li><a href="https://chromedriver.chromium.org/downloads">Chromedriver (Versão depende da sua versão do chrome)</a></li>
-    <p>Extrair o chromedriver na pasta C:/Windows/</p>
+    <p>###Extrair o chromedriver na pasta C:/Windows/###</p>
 </ul><br><br>
 
 <h2>Execução dos testes</h2><br>
 <h4>Método 1: Via CMD</h4><br>
 <ol>
-    <li>Abra a pasta do projeto</li>
+    <li>Abra a pasta do projeto<br>
+    <img src="./imgs/1-1.jpg"></li>
     <li>Clique na aba de endereço da pasta</li>
-    <li>Digite "cmd" e pressione "Enter"</li>
-    <li>Execute o seguinte comando: <br>```python -m robot --log Report/log.html --report Report/report --log Report/log --output Report/out.xml ./Tests```</li>
-</ol><br><br>
+    <li>Digite "cmd" e pressione "Enter"<br>
+    <img src="./imgs/1-2.jpg"></li>
+    <li>Execute o seguinte comando: <br></li>
+</ol>
+```
+python -m robot --log Report/log.html --report Report/report --log Report/log --output Report/out.xml ./Tests
+```
+<br>
+<img src="./imgs/1-3.jpg"><br><br>
+
 <h4>Método 2: Via VSCODE</h4><br>
 <ol>
     <li>Abra a pasta do projeto no vscode</li>
     <li>Clique na guia "Terminal"</li>
-    <li>Clique em "Run Task"</li>
+    <li>Clique em "Run Task"</li><br>
+    <img src="./imgs/2-1.jpg">
     <li>Escolha "run all tests"</li>
+    <br>
+    <img src="./imgs/2-2.jpg">
 </ol>
