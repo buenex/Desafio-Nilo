@@ -21,8 +21,10 @@
     <li>Digite "cmd" e pressione "Enter"<br>
     <img src="./imgs/1-2.jpg"></li>
     <li>Execute o seguinte comando: <br></li>
-
+    
+```
 python -m robot --log Report/log.html --report Report/report --log Report/log --output Report/out.xml ./Tests
+```
     
 </ol>
 <br>
